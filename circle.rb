@@ -6,5 +6,5 @@ c = 2 * r * Math::PI
 if r <= 0.0
 	puts "Error, the radius must be a positive number"
 else
-	puts "A circle with raidus "+r.to_s+" has an area of "+a.to_s+" and a circumfrence of "+c.to_s+"\n"
+	puts "A circle with raidus #{r} has an area of #{a} and a circumfrence of #{c}\n"
 end
